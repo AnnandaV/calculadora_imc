@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnImc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular IMC" />
+
+    <Button
+        android:id="@+id/btnTmb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular TMB"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
