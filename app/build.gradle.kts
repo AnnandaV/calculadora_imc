@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.calculadora_imc"
+    namespace = "com.example.calculadoradetmb"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.calculadora_imc"
+        applicationId = "com.example.calculadoradetmb"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -39,11 +39,8 @@ android {
 
 dependencies {
     implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
-    implementation(libs.androidx.activity)
-    implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("com.google.android.material:material:1.12.0")
 }
