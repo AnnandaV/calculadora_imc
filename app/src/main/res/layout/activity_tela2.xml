@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#0e6ba8">
+
+
+    <TextView
+        android:id="@+id/txtHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="-75dp"/>
+
+    <Button
+        android:id="@+id/btnImc"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:text="Calcular IMC"
+        android:textSize="23sp"
+        android:backgroundTint="#2ABB86"/>
+
+    <Button
+        android:id="@+id/btnTmb"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:text="Calcular TMB"
+        android:layout_marginTop="20dp"
+        android:textSize="23sp"
+        android:backgroundTint="#2ABB86"/>
+
+    <Button
+        android:id="@+id/btnVolta"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2ABB86"
+        android:textSize="23sp"
+        android:text="Voltar" />
+
+</LinearLayout>
