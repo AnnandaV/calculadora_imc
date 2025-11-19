@@ -1,6 +1,0 @@
-<gradient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://schemas.android.com/apk/res/android"
-    android:type="linear"
-    android:startColor="#199DD1"
-    android:endColor="#0B6EA7"
-    android:angle="90" />
